@@ -11,19 +11,19 @@ Redis.
 
 #### Our plan of action:
 
-Configure the docker 
-Run the MySQL server as a docker container.
-Deploy the dump.
-Create a project in Idea, add maven dependencies.
-Make a domain layer.
-Write a method to get all data from MySQL.
-Write a method of data transformation (in Redis we will write only those data which are often requested).
-Run the Redis server as a docker container.
-Write the data into Redis.
-Optional: install redis-insight, look at the data stored in Redis.
-Write a method to retrieve data from Redis.
-Write a method to get data from MySQL.
-Compare the speed of getting the same data from MySQL and Redis.
+- Configure the docker 
+- Run the MySQL server as a docker container.
+- Deploy the dump.
+- Create a project in Idea, add maven dependencies.
+- Make a domain layer.
+- Write a method to get all data from MySQL.
+- Write a method of data transformation (in Redis we will write only those data which are often requested).
+- Run the Redis server as a docker container.
+- Write the data into Redis.
+- Optional: install redis-insight, look at the data stored in Redis.
+- Write a method to retrieve data from Redis.
+- Write a method to get data from MySQL.
+- Compare the speed of getting the same data from MySQL and Redis.
 
 ___List of running containers___
 
